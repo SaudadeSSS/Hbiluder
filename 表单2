@@ -1,0 +1,79 @@
+<!DOCTYPE html><!--表单-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<form action="getmessg.html" method="get">
+			<!--action后是发送到的地址，method是发送方式
+			get方式提交可以在地址栏看到提交的内容（包括密码）
+			post方式提交看不到提交的内容（-->
+			用户名：<input type="text"name="yname"value=""><br>
+			<!--input是文本域，默认文本类型是type类型
+			用户名可以输到value后面-
+			整个表单的name后接内容不能是英文-->
+			密码：<input type="password"name="ps"id=""><br>
+			昵称：<input type="text"name="yname"value=""><br><!--圆形小点-->
+			性别：<input type="radio"name="xb"id=""value="male">男<br>
+				  <input type="radio"name="xb"id=""value="female">女<br>
+				  <input type="radio"name="xb"id=""value="女3">保密<br>
+			<!--单选：name后接内容一样是一组，radio在同一组内只能选一个
+			name后接内容不一样，会变成多选
+			
+			-->
+			教育程度：
+			<!--下拉列表-->
+			<select name="sel">
+				<option value="a">高中</option>
+				<option value="b">初中</option>
+				<option value="c">小学</option>
+				<option value="d"selected>大学</option>
+			</select>
+			<br>
+			
+			<!--多选下拉列表，按住Ctrl再点别的选项
+			或者连选，点击第一个再按住shift点击最后一个-->
+			<select name="sel222" multiple>
+				<option value="a">高中</option>
+				<option value="b">初中</option>
+				<option value="c">小学</option>
+				<option value="d"selected>大学</option>
+				</select>
+				
+			<br>	
+			婚姻状况：
+			<input type="radio"name="xb"id=""value="y">已婚
+			<input type="radio"name="xb"id=""value="w">未婚
+			<input type="radio"name="xb"id=""value="女9">保密<br>
+			爱好：<br>
+			<!--多选用checkbox-->
+			<input type="checkbox"name="hobby"value="foodball">踢足球<!--方形-->
+			<input type="checkbox"name="hobby"value="vo">打排球
+			<input type="checkbox"name="hobby"value="baas">看电影
+			
+			<br>	
+			
+			
+			<!--日期-->
+			<input type="date"  id="" name="datal">
+			
+			<br>
+		    描述自己的特点：（最多输入20个汉字） <input type="text" ><br>
+		   <!--方框-->
+			<p>
+			<form action="http://example.com/upload" method="POST" enctype="multipart/form-data"> 
+			<input type="file" name="file"> 
+			<input type="submit" value="上传"> </p>
+			<!--附件上传-->
+			
+			<!--重置
+			*注意：重置和提交只能存在一个
+			-->
+			<input type="reset" value="重置"
+			<input type="submit"value="提交"/><br>
+			<!--问卷提交-->
+			
+		</form>
+	</body>
+</html>
