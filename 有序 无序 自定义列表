@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>有序无序自定义列表</title>
+	</head>
+<!--注意：在HTML中type属性已经废弃，
+HTML5已经不支持该属性，
+因此我们使用CSS代替来定义不同类型的无序列表-->
+	<body>
+		<h4>圆点列表：</h4>
+		<ul style="list-style-type:disc">
+		 <li>Apples</li>
+		 <li>Bananas</li>
+		 <li>Lemons</li>
+		 <li>Oranges</li>
+		</ul>  
+		
+		<h4>圆圈列表：</h4>
+		<ul style="list-style-type:circle">
+		 <li>Apples</li>
+		 <li>Bananas</li>
+		 <li>Lemons</li>
+		 <li>Oranges</li>
+		</ul>  
+		
+		<h4>正方形列表：</h4>
+		<ul style="list-style-type:square">
+		 <li>Apples</li>
+		 <li>Bananas</li>
+		 <li>Lemons</li>
+		 <li>Oranges</li>
+		</ul>
+<!--有序列表-->
+		<ol>
+			<li>11</li>
+			<li>22</li>
+			<li>33</li>
+		</ol>
+		
+<!--自定义列表-->
+<dl>
+	<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dd>- black hot drink1</dd>
+		<dd>- black hot drink2</dd>
+	<dt>Milk</dt>
+		<dd>-white cold drink</dd>
+		<dd>-white cold drink2</dd>
+		<dd>-white cold drink3</dd>
+	
+</dl>
+		
+	</body>
+</html>
