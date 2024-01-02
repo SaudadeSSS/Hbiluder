@@ -1,0 +1,264 @@
+  #header{
+    float: left;
+  }
+  /* 头部样式 */
+  #head1 {
+    float: left;
+    width: 691px;
+    height: 151px;
+    border: #D2175B 3px solid;
+    margin-left: 2px;
+  }
+  
+  /* 导航条 */
+  .topnav {
+    float: left;
+    width: 673px;
+    height: 34px;
+    margin-top: 1px;
+    margin-left: 2px;
+    border: #636363 2px solid;
+  }
+   
+  /* 导航链接 */
+  .topnav a {
+    float: left;
+    height: 15px;
+    margin-right: 1px;/*设置导航之间的空隙*/
+    display: block;
+    font-size: 13px;
+    color: #050404;
+    text-align: center;
+    padding: 10px 19px;
+    text-decoration: none;/*取消下划线*/
+    background:url(../jiezhi/img/导航栏背景.png);
+  }
+   
+  /* 链接 - 修改颜色 */
+  .topnav a:hover {
+    color: rgb(5, 96, 186);
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* 创建两列 */
+  
+  /*弹性盒子*/
+  #center{
+      float: left;
+      margin-top: 0px;
+      height: 610px;
+  }
+     
+    /* 左侧栏 */
+  #leftcolumn {
+      float: left;
+      height: 610px;
+      border-width: 1px ;
+      border-radius: 20px 20px 0px 0px;
+      border-style: solid ;
+      border-color: #CACACA;
+      border-top: none;
+      margin-top: 0px;
+      margin-left: 7px;/*与最大框左边的空距离*/
+      width: 22.8%;/*占中间部分的比*/
+      background-color: #f1f1f1;/*背景色*/ 
+      
+    }
+    /* 左侧导航图像部分 */
+    .fakeimg {
+      float: left;
+      width: 100%;
+    }
+  /*登录和密码部分设置*/
+    #login input{
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid #939292;/*为了使登录和输入部分可以点击输入*/
+      background-color: #f1f1f1;/*登录框背景颜色*/
+      padding-top: 5px;
+      margin-left: 10px;
+      padding-left: 5px;
+      width: 85px
+    }
+  #login{
+      margin-left: 10px;
+  }
+  #login1 button{/*确定和重置的按键部分*/
+      float: left; 
+      margin-top: 5px; 
+      margin-left: 5px; 
+      font-size: 12px;
+      height: 18px;
+      width: 50px;
+      background-color: #FFFFFF;
+      border: 1px solid #7e7b7b;
+      text-align: center;
+  }
+  #login1{
+      margin-left: 20px;/*设置确定和重置键左边的距离*/
+  }
+  #login1 a{     /*重置密码和免费注册*/
+      float: left; 
+      margin-left: 5px; 
+      margin-top: 3px;
+      margin-bottom: 10px;
+      text-decoration: none;/*取消下划线*/
+      color:rgb(96, 93, 93)
+  }
+  #using{/*珠宝用途分类*/
+      float: left; 
+      width: 100px;
+  }
+  .flex-container {/*珠宝用途分类*/
+      height: 200px;
+      
+  }
+  .flex-container2{/*珠宝性质分类*/
+      height: 120px;/*和上一个高度不一样*/
+  }
+  .flex-item {/*珠宝分类内容*/
+      background-color: #f1f1f1;/*单个盒子颜色*/
+      width: 100px;
+      line-height: 21px;/*设置行高*/ 
+      border-bottom: #7e7b7b 1px solid;/*下划线*/
+      
+  }
+     /* 右侧 column */
+  #rightcolumn {   
+      float: left;
+      width: 526px;
+      height: 605px;
+      margin-top: 8px;
+      margin-left: 6px;
+  }
+  #ZSJ{/*紫水晶部分*/
+      float: left;
+      /* -moz-column-count:2; /*多列 Firefox */
+      -webkit-column-count:2; /*Safari and Chrome */
+      column-count:2;/*列数*/
+      column-gap: 5px;/*列间距*/
+      column-width:120px;/*列宽*/
+      height: 145px;
+      width: 300px;
+      background-image: url("../jiezhi/img/b_01.gif");/*水晶吊坠旁边的小花作为背景插入*/
+      background-repeat: no-repeat;/*不重复*/
+      background-position: 150px 8px;/*前者为左右距离，后者为上下高度*/
+  }
+  #ZSJ h3{/*紫水晶吊坠标题*/
+      color: rgb(223, 67, 152);
+      text-align:left;
+      text-indent:20px;/*首行缩进*/
+      padding-top: 7px;
+      margin-bottom: 0px;
+  }
+  #ZSJ p{/*紫水晶吊坠的讲解*/
+    float: left;
+    text-indent:23px;/*首行缩进*/
+    margin: 0px;
+    line-height: 19px/*设置行高*/ 
+  }
+  .m1{/*原价*/
+    float: left;
+    text-indent:23px;/*首行缩进*/
+    margin: 0px;
+    word-spacing:10px;/*字间距*/
+  }
+  .m2{/*折扣价*/
+    text-indent:23px;
+    float: left;
+    color: rgb(223, 67, 152);
+    text-align: center;
+    margin: 0px;
+    font-weight:800;/*字体粗细，加粗*/
+  }
+  button{/*按钮*/
+    margin-top: 5px;
+    font-size: 11px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;/*可选择的按键*/
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .buy{/*购买*/
+    border-color: rgb(223, 67, 152);
+    color: rgb(223, 67, 152);
+    margin-left: 15px;
+  } 
+  .collect{/*收藏*/
+    border-color: #cac7c7;
+    margin-left: 8px;
+  }
+  #new{/*新品上架*/
+    width: 365px;
+    height: 250px;
+    float: left;
+  } 
+  .n1{/*左边新品*/
+    float: left;
+    width: 121px;
+    height: 220px;
+  }
+  .n1 p{/*灰色紫水晶吊坠*/
+    margin: 0px;
+    float: center;
+    text-align: center; 
+  }
+  #hot{
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin-left: 7px;
+    border-width: 1px ;
+    border-radius: 20px 20px 0px 0px;/*左上和右上的圆角*/
+    border-style: solid ;
+    border-color: #C6A1CA;
+  }
+  
+  .hot1{/*热销*/
+    width: 150px;
+    height: 180px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    float: left;
+    padding-inline-start: 30px;/*左边空距离*/
+    line-height: 18px;/*设置行高*/ 
+  }
+  #hot2 p{/*更多>>>*/
+    float: left;
+    padding-left: 80px;/*为了让字靠右*/
+    margin: 0px;
+  }
+  #hot2{/*更多>>>*/
+    float: left;
+    width: 150px;
+    height: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  #footer{/*底部*/
+    height: 33px;
+    width: 693px;
+    border: #989898 1px solid;
+    border-top: #989898 5px solid;
+    margin: 0px;
+    float: left;
+    background-image: linear-gradient(#FFFFFf,#E5E5E5, #f1f1f1);
+    margin-left: 3px;
+  }
+  #footer h3{
+    color: rgb(223, 67, 152);
+    text-align: center;
+    margin-top: 10px;
+  }
