@@ -1,0 +1,62 @@
+
+#left{
+ float: left;
+width: 180px;
+ height: 460px;
+ border-radius:15px;
+ background: #FFFFFF;
+margin-right: 2px;
+}
+
+
+#p1 input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px soild black;
+	width:90px;
+	padding-top:5px;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+#p1{
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	
+}
+
+#p2 {
+ width: 200px;
+ height: 50px;
+ float: left;
+ margin-left: 0px;
+ padding-left: 0px;
+
+} 
+
+.pp1 {
+ width:150px;
+ height: 20px;
+ background: #FFD1D1;
+ margin-left: 15px;
+ margin-top: -10px;
+ margin-bottom: 3px;
+}
+
+.pp2 {
+ margin-top: 5px;
+ margin-bottom: 30px;
+}
+
+.pp2 li {
+width: 130px;
+ margin-left: -25px;
+ background:url("../pic/icon1.gif");
+ background-repeat: no-repeat;
+ background-position: 5px 8px;/*前者为左右距离，后者为上下高度*/
+ border-bottom: 1px dotted #552241;
+ padding-left: 25px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}

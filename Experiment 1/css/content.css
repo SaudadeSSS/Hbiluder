@@ -1,0 +1,53 @@
+
+#content {
+
+    float: left;
+
+    width:518px;
+}
+
+#c1 {
+
+    float: left;
+    width: 518px;
+
+    height: 203px;
+
+    background: #FFFFFF;
+
+    border-radius:15px;
+margin-top: 5px;
+}
+
+.flower {
+     float: left;
+      width:105px;
+      height: 150px;
+      margin-left: 20px;
+      margin-top: 10px;
+       text-align: center;
+       line-height: 5px;
+}
+
+#c2 {
+    float: left;
+    width: 518px;
+    height: 120px;
+    border-radius:15px;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+.cc1 {
+     float: left;
+     width: 200px;
+     margin-left: -10px;
+     margin-top: 0px;
+}
+.cc1 li{
+    background-image: url("../pic/icon2.gif");
+    background-repeat: no-repeat;
+     background-position: 0px 8px;/*前者为左右距离，后者为上下高度*/
+     padding-left:10px; 
+      margin-top: 5px;
+}

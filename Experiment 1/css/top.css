@@ -1,0 +1,36 @@
+#top {
+float: left;
+margin-bottom: 5px;
+}
+
+#MWH{
+ float: left;
+ width: 700px;
+ height: 120px;
+}
+
+.n1 ul{
+width: 700px;
+ height: 30px;
+margin-left: -40px;
+}
+
+.n1 ul li{
+float: left;
+ width: 100px;
+ height: 30px;
+ text-align: center;
+ line-height:30px; /*设置文本字体的行高*/
+}
+
+.n1 a {
+height:30px;
+color: #421921;
+background:url("../pic/button1.jpg");
+}
+
+.n1 a:hover {
+color:#FFF;
+text-decoration: underline;
+ background:url("../pic/button1_bg.jpg");
+}
